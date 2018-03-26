@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="vertical"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/linearLayout1"
+    p1:gravity="center"
+    p1:minWidth="25px"
+    p1:minHeight="25px">
+    <TextView
+        p1:text="Quest"
+        p1:textAppearance="?android:attr/textAppearanceLarge"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/questName"
+        p1:layout_gravity="center"
+        p1:gravity="center" />
+    <TextView
+        p1:text="story"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:layout_width="280dp"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/queststory"
+        p1:textSize="20dp"
+        p1:padding="20dp"
+        p1:gravity="center" />
+    <TextView
+        p1:text="latitude"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:layout_width="280dp"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/latitude"
+        p1:textSize="10dp"
+        p1:gravity="center"
+        p1:layout_gravity="center" />
+    <TextView
+        p1:text="longitude"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:layout_width="280dp"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/longitude"
+        p1:textSize="10dp"
+        p1:gravity="center" />
+    <TextView
+        p1:text="provider"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:layout_width="280dp"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/provider"
+        p1:textSize="10dp"
+        p1:gravity="center"
+        p1:layout_gravity="center" />
+    <TextView xmlns:app="http://schemas.android.com/apk/res-auto"
+        p1:text="..."
+        p1:textSize="20dp"
+        p1:layout_width="280dp"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/distance"
+        p1:padding="10dp"
+        p1:layout_marginTop="28.0dp" />
+    <TextView
+        p1:text="..."
+        p1:textSize="20dp"
+        p1:layout_width="280dp"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/hotcold"
+        p1:textColor="@android:color/holo_blue_light"
+        p1:padding="10dp" />
+    <Button
+        p1:text="next quest (for debugging)"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/button1" />
+</LinearLayout>
