@@ -72,7 +72,11 @@ namespace Exploretum  // ALL QUEST SCREENS
                 questName.Text = Quest.GetQuestName(questNumber);
                 TextView story = FindViewById<TextView>(Resource.Id.queststory);
                 hotCold = FindViewById<TextView>(Resource.Id.hotcold);
-
+             
+                 // display sprite
+                ImageView sprite = FindViewById<ImageView>(Resource.Id.sprite);
+                sprite.SetImageResource(Resource.Drawable.leopard_moth_sprite);
+                
                 // (debugging) see distance between quest location/current location
                 story.Text = Quest.GetQuestStory(questNumber);
                 distanceText = FindViewById<TextView>(Resource.Id.distance);
