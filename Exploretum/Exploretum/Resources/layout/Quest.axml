@@ -68,6 +68,11 @@
         p1:id="@+id/hotcold"
         p1:padding="10dp"
         p1:textColor="#ff90caf9" />
+      <ImageView
+        p1:src="@android:drawable/ic_menu_gallery"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/sprite" />
     <Button
         p1:text="next quest (for debugging)"
         p1:layout_width="match_parent"
