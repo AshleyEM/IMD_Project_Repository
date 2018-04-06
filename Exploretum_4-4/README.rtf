@@ -1,0 +1,76 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf200
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Bold;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\csgray\c0\c0;}
+\margl1440\margr1440\vieww15180\viewh9680\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \cb3 \expnd0\expndtw0\kerning0
+Open 
+\b app_test.sln
+\b0  under App_3-1\
+\
+If there are problems running it, try:\
+	Properties folder > AndroidManifest.xml\
+	set \'91Minimum Android version\'92 to \'93Override - Android 7.1\'94\
+	and \'91Target Android version\'92 to \'93Override - Android 7.1\'94\
+\
+Each screen of the app is an \'91Activity\'92 from the Android Activity class. Each Activity is a separate C# file. \
+\
+
+\b 	MainActivity.cs 
+\b0 (code for the first screen user sees)
+\b \
+	MapActivity.cs 
+\b0 (code for the map screen)
+\b \
+	QuestActivity.cs 
+\b0 (code for the quest screen)
+\b \
+	CompleteQuestActivity.cs 
+\b0 (code for the screen user sees when completing a quest)
+\b \
+	EndActivity.cs 
+\b0 (code for the end screen)
+\i \
+\
+
+\i0\b Quest.cs
+\b0  is not a screen, but a class which stores all of the info for each quest
+\i\b \
+
+\b0 		
+\i0 \
+The buttons, text, images for each screen are done through separate .axml files (sort of like CSS files). \
+\
+
+\i Resources > layout >
+\i0 \
+
+\i\b 	
+\i0 Main.axml 
+\b0 (visuals for the main screen)\
+
+\b 	Map.axml 
+\b0 (visuals for the map screen)\
+	
+\b End.axml 
+\b0 (visuals for the end screen)\
+	
+\b Quest.axml
+\b0  (visuals for the quest screens)\
+	
+\b CompleteQuest.axml 
+\b0 (visuals for the competed quest screens)\
+\
+Documentation for adding text, buttons, images, etc:\
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "https://developer.xamarin.com/guides/android/user_interface/android-designer/"}}{\fldrslt \cf2 https://developer.xamarin.com/guides/android/user_interface/android-designer/}}\
+\
+\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b \cf2 \kerning1\expnd0\expndtw0 \
+}
