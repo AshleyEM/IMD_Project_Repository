@@ -6,13 +6,15 @@ namespace Exploretum
     {
         // information for each quest
         private static string[][] questList = {
-            new string[] {"Moth and Magnolia",  
+            new string[] { // QUEST 1
+                          "Moth and Magnolia",  
                           "47.591481", // lat  
                           "-122.083228", // long 
-                          "[spirit's story]", 
-                          "[spirit1 thanks user]", 
+                          "sprite hint", 
+                          "sprite story", 
                          },
-            new string[] {"quest 2",
+            new string[] { // QUEST 2
+                          "quest 2",
                           "47.591673 ", 
                           "-122.083251",
                           "[spirit's story]",
@@ -23,8 +25,8 @@ namespace Exploretum
         };
         // sprite images for each quest
         private static int[] spriteImgs = {
-            Resource.Drawable.leopard_moth_sprite,
-            Resource.Drawable.magnolia_sprite,
+            Resource.Drawable.leopard_moth_sprite, // QUEST 1
+            Resource.Drawable.magnolia_sprite, // QUEST 2
         };
         // hot-cold meter images
         public static int[] scopeFrames = {
