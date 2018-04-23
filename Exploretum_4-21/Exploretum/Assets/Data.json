@@ -1,0 +1,54 @@
+{
+	"Quests": [
+		{
+			"Title": "Moths",
+			"Sprite": "Scrib",
+			"SpriteImage": "moth.png",
+			"QuestBackgroundImage": "quest-moths.png",
+			"Stops": [
+				{
+					"StopType": "Story",
+					"Narrative": "Hey there Explorer. My name’s Scrib. I’m an Ecpantheria scribonia, but most non-Latin speakers know me as a leopard moth. My species, in our larval form, are big fans of fine dining, especially on the flowers of Magnolia stellata, or magnolia trees. Adults, like me, feed on nectar from most flowering plants."
+				},
+				{
+					"StopType": "CheckPoint",
+					"Lat": 47.6385,
+					"Long": -122.2955,
+					"Title": "Winter Garden",
+					"BackgroundImage": "winter.png",
+					"FoundImage": "winter.png",
+					"Plant": "Pieris japonica ‘Mountain Fire’",
+					"Common": "Japanese andromeda",
+					"Narrative": "Hey Explorer, congrats on your first plant find! These flowers are tiny but accompanied by mighty, fiery leaves. You think I can reach the nectar",
+					"Hint": "You can find this by....",
+					"Fact": "Did you know… The Pieris part of this plant’s name is the name of the home of the Greek Muses."
+				},
+				{
+					"StopType": "Story",
+					"Narrative": "Your next stop is going to be near a neat little pond, head to the Japanese Maples."
+				},
+				{
+					"StopType": "CheckPoint",
+					"Lat": 47.6375,
+					"Long": -122.2949,
+					"Title": "Japanese Maples",
+					"BackgroundImage": "maples.png",
+					"FoundImage": "maples.png",
+					"Plant": "Acer palmatum ‘Ichigyo ji’",
+					"Common": "Japanese andromeda",
+					"Narrative": "The latter part of the name of this tree, palmatum, was named after something that looks similar to the shape of the leaves. What could this be? A) Hamsters B) Palms of the hands C) Cake",
+					"Hint": "explain how to find Japanese Maples....",
+					"Fact": "Did you know… The Pieris part of this plant’s name is the name of the home of the Greek Muses."
+				},
+				{
+					"StopType": "Story",
+					"Narrative": "Your next stop is going to be near a neat little pond, head to the Japanese Maples."
+				},
+				{
+					"StopType": "Story",
+					"Narrative": "Thanks for completing this quest." 
+				}
+			]
+		}
+	]
+}
