@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<resources>
-	<string name="hello">Hello World, Click Me!</string>
-	<string name="app_name">app_test</string>
-	<string name="latitude_string">Latitude: %1$f</string>
-    <string name="longitude_string">Longitude: %1$f</string>
-    <string name="provider_string">Provider: %1$s</string>
-</resources>
