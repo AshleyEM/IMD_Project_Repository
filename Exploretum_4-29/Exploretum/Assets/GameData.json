@@ -171,6 +171,93 @@
                 "stoptype": "story",
                 "narrative": "Hey, it’s a family member! I’m so excited to see an elder tree that’s growing healthily. Looks like some of my fellow pinecones are also developing quite well. Thanks so much for all the help. Thanks for all the help, Explorer! All of this Arboretum exploration has hopefully allowed you to learn a lot about the incredible biodiversity that exists here. You can take your knowledge and apply it at home in your community. You can read up about plant care and start your own garden, responsibly planting a variety of lush plants is a great way to add to the biodiversity of your area. You can talk to the lovely folks at the Arboretum about further learning opportunities as well! Visit arboretumfoundation.org for more info.",   
               },
+              
+               {
+            "name": "Hummingbird",
+            "spriteImg": "hummingbird.jpg",
+            "backgroundImg":  "",
+  			    "stops":[
+             {
+               "stoptype": "story",
+               "narrative":  "Hey there Explorer, nice to meet you, can you see me up here hovering around? I can be hard to miss. My name’s Rufus, and I’m a rufous hummingbird. I’m not really from around here.... I’ve been travelling for so long now, I’ve migrated up to the PNW from Mexico. I still have quite a ways to go, I’m actually heading to Alaska for the season. All this travelling makes me extremely hungry, and my small self needs flower nectar to survive. Some flowering plants throughout the Arboretum may have bloomed early due to changes in climate, so I need you to help me find plants that are currently in bloom and not too frost-bitten. Hopefully we can find a feast, and you can learn about the incredible plants that are all around you!",           
+             },
+             {
+                "stoptype": "checkpoint",
+                "backgroundImg": "checkpoint11.jpg",
+                "stopname": "Azalea Way, near the Pines",
+                "plant": "Rehderodendron macrocarpum",
+                "common": "Chinese rehderodendron",
+                "hint": "Start off on the path near the pines, you’ll see some smaller trees that will be flowering.",
+                "fact": "Did you know…  this tree was discovered in 1931 and is native to China.",
+                "lat": 47.6355507,
+                "long": -122.2968573             
+             },
+             {
+                "stoptype": "story",
+                "narrative": "Looks like there’s a few little blooms on this tree, just a bit bigger than me",
+             },
+             {
+                "stoptype": "checkpoint",
+                "backgroundImg": "checkpoint12.jpg",
+                "stopname": "Azalea Way, up on an incline",
+                "plant": "Rhododendron ‘Noble Mountain’",
+                "common": "Noble Mountain Rhododendron",
+                "hint": "Go up a small grove incline, you’ll see some vibrant shrubs.",
+                "fact": "Did you know…  the dark red spots in the middle of the petals of this flower are used by bees and other pollinators to guide them to the pollen.",
+                "lat": 47.6361069,
+                "long": -122.2963530
+             },
+             {
+                "stoptype": "story",
+                "narrative": "Now these are some yummy flowers! I’ll be drowning in nectar.",
+             },
+             {
+                "stoptype": "checkpoint",
+                "backgroundImg": "checkpoint13.jpg",
+                "stopname": "Azalea Way, near the pond",
+                "plant": "Acer palmatum cultivar",
+                "common": "Japanese maple",
+                "hint": "Go down further towards a serene pond, you’ll see a colorful tree.",
+                "fact": "Did you know…  Acer in Latin means sharp, referring to the shape of the leaves.",
+                "lat": 47.6376203, 
+                "long": -122.2963426
+             },
+             {
+                "stoptype": "story",
+                "narrative": "Reds and greens abound! I could blend in pretty well against this tree. No flowers for me though!",
+             },
+             {
+                "stoptype": "checkpoint",
+                "backgroundImg": "checkpoint14.jpg",
+                "stopname": "Azalea Way, near multiple shrubs",
+                "plant": "Cornus nuttallii",
+                "common": "Pacific dogwood",
+                "hint": "Keep going further down Azalea Way, you’ll see some big buttercup-like flowers.",
+                "fact": "Did you know…this type of dogwood’s flower is the provincial flower of British Columbia.",
+                "lat": 47.6382047, 
+                "long":  -122.2963409,
+             },
+             {
+                "stoptype": "story",
+                "narrative": "These flowers look tasty, almost like overgrown buttercups. They’re so high up the tree, I’ll have to do a lot of hovering to get to them.",
+             },
+             {
+                "stoptype": "checkpoint",
+                "backgroundImg": "checkpoint15.jpg",
+                "stopname": "Azalea Way",
+                "plant": "Rhododendron simsii",
+                "common": "Yangtze rhododendron",
+                "hint": "Go down to the end of Azalea Way, you’re almost done.",
+                "fact": "Did you know… some rhododendrons produce toxic pollen and nectar, and honey made from the specific pollen can be hallucinogenic to humans.",
+                "lat": 47.6394366,
+                "long": -122.2957039
+             },
+             {
+                "stoptype": "story",
+                "narrative": "Hey looks like you’re all done down this path! You’ve found me a bunch of yummy flowers, thanks so much! Thanks for all the help, Explorer! I’m gonna have sooo many yummy options to feast on before I head off to Alaska. We’re lucky to have so many beautiful plants around us to appreciate, and eat! I hope along the way I have more flowers to eat. This shows us that the diversity of plants is super important for animals like me. You can help migrating species like me by planting a diversity of plants in your own garden.", 
+             }
+            ]
+          },
  
             ]
           }
