@@ -3,22 +3,19 @@
   	"Quests":[
           {
             "name": "Moths",
-            "spriteImg":  "",
+            "spriteImg": "moth.jpg",
             "backgroundImg":  "",
   			    "stops":[
              {
                "stoptype": "story",
-               "backgroundImg": "",
-               "narrative":  "",   
-               "stopname": "stop1",          
+               "narrative":  "",           
              },
              {
                 "stoptype": "checkpoint",
-                "backgroundImg": "",
-                "stopname": "stop2",
-                "location": "Winter Garden",
+                "backgroundImg": "checkoint1.jpg",
+                "stopname": "Winter Garden",
                 "plant": "Pieris japonica Mountain Fire",
-                "hint":  "",
+                "hint": "Start off your exploration by venturing into the Winter Garden.",
                 "common": "Japanese andromeda",
                 "fact": "Did you know… The Pieris part of this plant’s name is the name of the home of the Greek Muses",
                 "lat": 47.6385,
@@ -26,28 +23,43 @@
              },
              {
                 "stoptype": "story",
-                "backgroundImg": "",
                 "narrative": "",
-                "stopname": "stop3",
+             },
+             {
+              "stoptype": "checkpoint",
+              "backgroundImg": "checkoint2.jpg",
+              "stopname": "Winter Garden",
+              "plant": "Pieris japonica Mountain Fire",
+              "hint": "Start off your exploration by venturing into the Winter Garden.",
+              "common": "Japanese andromeda",
+              "fact": "Did you know… The Pieris part of this plant’s name is the name of the home of the Greek Muses",
+              "lat": 47.6385,
+              "long": -122.2955
+             },
+             {
+               "stoptype": "story",
+               "narrative": "",
              }
             ]
           },
           {
-            "name": "quest2",
-            "spriteImg": "",
-            "backgroundImg": "pink_flowers.jpg",
+            "name": "Pines",
+            "spriteImg": "pina.png",
+            "backgroundImg": "quest-pines.jpg",
             "stops":[
               {
                 "stoptype": "checkpoint",
-                "stopname": "stop1",
-                "location": "location1",
-                "lat": 0.0,
-                "long": 0.0        
+                "stopname": "Giant Sequoia",
+                "plant": "",
+                "hint": "",
+                "common": "",
+                "fact": "Did you know… ",
+                "lat": 47.6334,
+                "long": -122.2955        
               },
               {
-                "stoptype": "story", 
-                "stopname": "stop2", 
-                "location": "location2"     
+                "stoptype": "story",
+                "narrative": "",   
               }
             ]
           }
