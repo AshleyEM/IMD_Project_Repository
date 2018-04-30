@@ -14,9 +14,9 @@
                 "stoptype": "checkpoint",
                 "backgroundImg": "checkoint1.jpg",
                 "stopname": "Winter Garden",
-                "plant": "Pieris japonica Mountain Fire",
-                "hint": "Start off your exploration by venturing into the Winter Garden.",
+                "plant": "Pieris japonica, Mountain Fire",
                 "common": "Japanese andromeda",
+                "hint": "Start off your exploration by venturing into the Winter Garden.",
                 "fact": "Did you know… The Pieris part of this plant’s name is the name of the home of the Greek Muses",
                 "lat": 47.6385,
                 "long": -122.2955             
@@ -26,19 +26,64 @@
                 "narrative": "",
              },
              {
-              "stoptype": "checkpoint",
-              "backgroundImg": "checkoint2.jpg",
-              "stopname": "Winter Garden",
-              "plant": "Pieris japonica Mountain Fire",
-              "hint": "Start off your exploration by venturing into the Winter Garden.",
-              "common": "Japanese andromeda",
-              "fact": "Did you know… The Pieris part of this plant’s name is the name of the home of the Greek Muses",
-              "lat": 47.6385,
-              "long": -122.2955
+                "stoptype": "checkpoint",
+                "backgroundImg": "checkoint2.jpg",
+                "stopname": "Winter Garden",
+                "plant": "Acer palmatum, Ichigyo ji",
+                "common": "Japanese maple",
+                "hint": "Your next stop is going to be near a neat little pond, head to the Japanese Maples.",
+                "fact": "Did you know... The latter part of the name of this tree, palmatum, was named after the palms of hands, since they look similar to the shape of the leaves",
+                "lat": 47.6375,
+                "long": -122.2949
              },
              {
-               "stoptype": "story",
-               "narrative": "",
+                "stoptype": "story",
+                "narrative": "",
+             },
+             {
+                "stoptype": "checkpoint",
+                "backgroundImg": "checkoint3.jpg",
+                "stopname": "Woodland Garden",
+                "plant": "Rhododendron schlippenbachii",
+                "common": "Royal azalea",
+                "hint": "Your next stop is going to be near a neat little pond, head to the Japanese Maples.",
+                "fact": "Did you know... These are technically azaleas, but they're part of the larger plant family of rhododendron.",
+                "lat": 47.6375,
+                "long": -122.2949
+             },
+             {
+                "stoptype": "story",
+                "narrative": "",
+             },
+             {
+                "stoptype": "checkpoint",
+                "backgroundImg": "checkoint4.jpg",
+                "stopname": "Asiatic Maples",
+                "plant": "Acer triflorum",
+                "common": "Three-flowered maple",
+                "hint": "Your next stop is also going to be another native Korean plant, you’ll find it in the Asiatic Maples section",
+                "fact": "Did you know… The Pieris part of this plant’s name is the name of the home of the Greek Muses.",
+                "lat": 47.6358,
+                "long": -122.2961
+             },
+             {
+                "stoptype": "story",
+                "narrative": "",
+             },
+             {
+                "stoptype": "checkpoint",
+                "backgroundImg": "checkoint5.jpg",
+                "stopname": "Magnolias",
+                "plant": "Magnolia stellata",
+                "common": "Star magnolia",
+                "hint": "The next stop on your radar is also going to be a flowering tree my favorite one at that. Next stop, Magnolias!",
+                "fact": "Did you know…  Magnolias, as a species, are ancient. Beetles were the first insects to pollinate them.",
+                "lat": 47.6358,
+                "long": -122.2961
+             },
+             {
+                "stoptype": "story",
+                "narrative": ""
              }
             ]
           },
@@ -49,10 +94,10 @@
             "stops":[
               {
                 "stoptype": "checkpoint",
-                "stopname": "Giant Sequoia",
+                "stopname": "Japanese Maples",
                 "plant": "",
                 "hint": "",
-                "common": "",
+                "common": "Japanese maple",
                 "fact": "Did you know… ",
                 "lat": 47.6334,
                 "long": -122.2955        
@@ -60,7 +105,8 @@
               {
                 "stoptype": "story",
                 "narrative": "",   
-              }
+              },
+ 
             ]
           }
   	    ]
