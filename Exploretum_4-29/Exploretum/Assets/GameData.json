@@ -8,11 +8,11 @@
   			    "stops":[
              {
                "stoptype": "story",
-               "narrative":  "",           
+               "narrative":  "Hey there Explorer. My name’s Scrib. I’m an Ecpantheria scribonia, but most non-Latin speakers know me as a leopard moth. My species, in our larval form, are big fans of fine dining, especially on the flowers of Magnolia stellata, or magnolia trees. Adults, like me, feed on nectar from most flowering plants. Springtime is prime time for my favorite meal to bloom. This past spring, however, has been super cold...hello winter number two. This means that the magnolias haven’t been able to bloom as gloriously. I need you to help me find some lush magnolias please! Keep in mind, I eat other plants too, maybe you can help me find ones with flowers. My friend Piña the Pinecone is also out here somewhere. Maybe we’ll cross paths with her. Start off your exploration by venturing to the Winter Garden. Good luck!",           
              },
              {
                 "stoptype": "checkpoint",
-                "backgroundImg": "checkoint1.jpg",
+                "backgroundImg": "checkpoint1.jpg",
                 "stopname": "Winter Garden",
                 "plant": "Pieris japonica, Mountain Fire",
                 "common": "Japanese andromeda",
@@ -23,11 +23,11 @@
              },
              {
                 "stoptype": "story",
-                "narrative": "",
+                "narrative": "Hey Explorer, congrats on your first plant find! These flowers are tiny but accompanied by mighty, fiery leaves. You think I can reach the nectar?",
              },
              {
                 "stoptype": "checkpoint",
-                "backgroundImg": "checkoint2.jpg",
+                "backgroundImg": "checkpoint2.jpg",
                 "stopname": "Winter Garden",
                 "plant": "Acer palmatum, Ichigyo ji",
                 "common": "Japanese maple",
@@ -38,11 +38,11 @@
              },
              {
                 "stoptype": "story",
-                "narrative": "",
+                "narrative": "These maples are so colorful! There’s tons of versions with all sorts of leaf colors. Looks like there’s no flowers for me, though…",
              },
              {
                 "stoptype": "checkpoint",
-                "backgroundImg": "checkoint3.jpg",
+                "backgroundImg": "checkpoint3.jpg",
                 "stopname": "Woodland Garden",
                 "plant": "Rhododendron schlippenbachii",
                 "common": "Royal azalea",
@@ -53,11 +53,11 @@
              },
              {
                 "stoptype": "story",
-                "narrative": "",
+                "narrative": "Finally, some more food. These flowers are royally gorgeous! They’re native to Korea, they even have a festival dedicated to them.",
              },
              {
                 "stoptype": "checkpoint",
-                "backgroundImg": "checkoint4.jpg",
+                "backgroundImg": "checkpoint4.jpg",
                 "stopname": "Asiatic Maples",
                 "plant": "Acer triflorum",
                 "common": "Three-flowered maple",
@@ -68,11 +68,11 @@
              },
              {
                 "stoptype": "story",
-                "narrative": "",
+                "narrative": "Not one, not two, but three flowers clustered together on this fine maple specimen! Yum.",
              },
              {
                 "stoptype": "checkpoint",
-                "backgroundImg": "checkoint5.jpg",
+                "backgroundImg": "checkpoint5.jpg",
                 "stopname": "Magnolias",
                 "plant": "Magnolia stellata",
                 "common": "Star magnolia",
@@ -83,7 +83,7 @@
              },
              {
                 "stoptype": "story",
-                "narrative": ""
+                "narrative": "You did it, Explorer! You found a magnolia tree! Thankfully, the flowers are in bloom and made it through the harsh winter and it looks like not many of them were frost damaged. This is going to be a feast for my species. It’s a feast for your eyes too. Look out for Piña next!"
              }
             ]
           },
