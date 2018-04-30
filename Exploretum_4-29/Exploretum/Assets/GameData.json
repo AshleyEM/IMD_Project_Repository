@@ -92,19 +92,84 @@
             "spriteImg": "pina.png",
             "backgroundImg": "quest-pines.jpg",
             "stops":[
-              {
+               {
+               "stoptype": "story",
+               "narrative":  "Hey there Explorer. I’m Piña the Pinecone, of the tree Pinus rigida, or the pitch pine. My family of trees has undergone a vicious attack from red turpentine beetles. Because of the drier summers, we couldn’t keep up with the lack of water reaching us. The beetles ate through our bark to reach our phloem, and the trees could not handle all the stress. Since 2005, about 40 of us at the Arboretum have been infested with beetles. Our trunks are sturdy and rigid, the rigida moniker isn’t a lie, but after droughts and beetle attacks, even our mighty bodies are taken down. I need your help. I need you to go through the Arboretum and help me find one of my surviving family members. Along the way, you’ll see lots of other plants. Hopefully, seeing these living, lush plants will encourage you to learn about all of them while they are alive, learn about biodiversity, and what YOU can do to help preserve plants! Start off by heading towards the Giant Sequoias.",           
+             },
+             {
                 "stoptype": "checkpoint",
-                "stopname": "Japanese Maples",
-                "plant": "",
-                "hint": "",
-                "common": "Japanese maple",
-                "fact": "Did you know… ",
-                "lat": 47.6334,
-                "long": -122.2955        
+                "backgroundImg": "checkpoint6.jpg",
+                "stopname": "Giant Sequoia",
+                "plant": "Sequoiadendron giganteum",
+                "common": "Giant Sequoia",
+                "hint": "Start off by heading towards the Giant Sequoias.",
+                "fact": "Did you know… Giant sequoias are one of the oldest living species on Earth, with the oldest recorded one being around 3500 years old.",
+                "lat": 47.6334
+                "long": -122.2955      
               },
               {
                 "stoptype": "story",
-                "narrative": "",   
+                "narrative": "What a huge specimen! My family doesn’t grow nearly as big. This guy has probably been around longer than most people working at the Arboretum. I wonder what he’s seen…",   
+              },
+               {
+                "stoptype": "checkpoint",
+                "backgroundImg": "checkpoint7.jpg",
+                "stopname": "Camellias",
+                "plant": "Camellia japonica ‘Nina Avery’",
+                "common": "Common camellia",
+                "hint": "Your next stop is going to be straight ahead in the Camellia section.",
+                "fact": "Did you know... Camellias are important symbolic plants in Japan and China. In China, they’re lucky symbols during Chinese New year.",
+                "lat": 47.6326
+                "long": -122.2926      
+              },
+              {
+                "stoptype": "story",
+                "narrative": "This variety of the common camellia is so vibrant! It’s always nice to see such a happy bloom when our environment is usually gloomy.",   
+              },
+              {
+                "stoptype": "checkpoint",
+                "backgroundImg": "checkpoint8.jpg",
+                "stopname": "Rhododendron Path",
+                "plant": "Rhododendron macrophyllum",
+                "common": "Pacific rhododendron",
+                "hint": "Your next stop is going to be down a nearby staircase, you’ll see some more lovely flowers.",
+                "fact": "Did you know... These are technically azaleas, but they're part of the larger plant family of rhododendrons.",
+                "lat": 47.6351
+                "long": -122.2961     
+              },
+              {
+                "stoptype": "story",
+                "narrative": "These little pink flowers are Washington’s state flower. They’re common along the West Coast, and their cousins, other rhododendrons and azaleas, are common throughout the Arboretum.",   
+              },
+              {
+                "stoptype": "checkpoint",
+                "backgroundImg": "checkpoint9.jpg",
+                "stopname": "Between Pines and Pink Flowers",
+                "plant": "Rhododendron mollis",
+                "common": "Arneson Gem Azalea",
+                "hint": "Your next stop is along the winding path, just stay straight on. Look out for bright organge flowers.",
+                "fact": "Did you know… this flower hybrid was developd in the 1950’s in Portland, Oregon.",
+                "lat": 47.6340
+                "long": -122.295     
+              },
+              {
+                "stoptype": "story",
+                "narrative": "Nice job finding this plant, Explorer! It’s a hybrid and beautiful flower.",   
+              },
+              {
+                "stoptype": "checkpoint",
+                "backgroundImg": "checkpoint10.jpg",
+                "stopname": "Pines",
+                "plant": "Pinus rigida",
+                "common": "Pitch pine",
+                "hint": "Your next stop looks like it’s going to be exciting for me! Keep going!",
+                "fact": "Did you know…The pitch pine grows well in soils that most other plants could not thrive in, like swampy and acidic soil. Our trunks are usually quite twisted and irregular, we grow to our own beat.",
+                "lat": 47.6335
+                "long": -122.2961     
+              },
+              {
+                "stoptype": "story",
+                "narrative": "Hey, it’s a family member! I’m so excited to see an elder tree that’s growing healthily. Looks like some of my fellow pinecones are also developing quite well. Thanks so much for all the help. Thanks for all the help, Explorer! All of this Arboretum exploration has hopefully allowed you to learn a lot about the incredible biodiversity that exists here. You can take your knowledge and apply it at home in your community. You can read up about plant care and start your own garden, responsibly planting a variety of lush plants is a great way to add to the biodiversity of your area. You can talk to the lovely folks at the Arboretum about further learning opportunities as well! Visit arboretumfoundation.org for more info.",   
               },
  
             ]
