@@ -1,0 +1,147 @@
+{
+	"Quests": [
+		{
+			"Title": "Hummingbird",
+			"Sprite": "Rufus ",
+			"SpriteImage": "rufus.png",
+			"QuestBackgroundImage": "   .png",
+			"Stops": [
+				{
+					"StopType": "Story",
+					"Narrative": "Hey there Explorer, nice to meet you, can you see me up here hovering around? I can be hard to miss. My name’s Rufus, and I’m a rufous hummingbird. I’m not really from around here.... 
+					
+					I’ve been travelling for so long now, I’ve migrated up to the PNW from Mexico. I still have quite a ways to go, I’m actually heading to Alaska for the season. All this travelling makes me extremely hungry, and my small self needs flower nectar to survive.
+					
+					Some flowering plants throughout the Arboretum may have bloomed early due to changes in climate, so I need you to help me find plants that are currently in bloom and not too frost-bitten. Hopefully we can find a feast, and you can learn about the incredible plants that are all around you!"
+				},
+				//checkpoint 11 
+				// in the meter screen 
+				{
+					"StopType": "CheckPoint",
+					"Lat": 47.6355507,
+					"Long": -122.2968573,
+					"Title": "Azalea Way, near the Pines",
+					"BackgroundImage": "checkpoint11.jpg",
+					"FoundImage": "checkpoint11.jpg",
+					"Plant": "Rehderodendron macrocarpum",
+					"Common": "Chinese rehderodendron",   
+					"Narrative": "",
+					"Hint": "Start off on the path near the pines, you’ll see some smaller trees that will be flowering.",
+					"Fact": "Did you know…  this tree was discovered in 1931 and is native to China."
+				},
+				
+				// in the narrative screen 
+				
+				{
+					"StopType": "Story",
+					
+					"Narrative": "Looks like there’s a few little blooms on this tree, just a bit bigger than me."
+				},	
+				{
+					"StopType": "Story",
+					"Narrative": "Thanks for completing this quest." 
+				}
+				//checkpoint 12
+				// in the meter screen 
+				{
+					"StopType": "CheckPoint",
+					"Lat":  47.6361069,
+					"Long": -122.2963530,
+					"Title": "Azalea Way, up on an incline",
+					"BackgroundImage": "checkpoint12.jpg",
+					"FoundImage": "checkpoint12.jpg",
+					"Plant": " Rhododendron ‘Noble Mountain’",
+					"Common": "Noble Mountain Rhododendron ",
+					"Narrative": "", 
+",
+					"Hint": "Go up a small grove incline, you’ll see some vibrant shrubs.",
+					"Fact": " Did you know…  the dark red spots in the middle of the petals of this flower are used by bees and other pollinators to guide them to the pollen.."
+				},
+				{
+					"StopType": "Story",
+					// in the narrative screen 
+					"Narrative": "Now these are some yummy flowers! I’ll be drowning in nectar.",
+				},
+				{
+					"StopType": "Story",
+					"Narrative": "Thanks for completing this quest." 
+				}
+				
+				// in the meter screen 
+				//checkpoint 13
+				{
+					"StopType": "CheckPoint",
+					"Lat": 47.6376203,
+					"Long": -122.2963426,
+					"Title": " Azalea Way, near the pond",
+					"BackgroundImage": "checkpoint13.jpg",
+					"FoundImage": "checkpoint13.jpg",
+					"Plant": "Acer palmatum cultivar",
+					"Common": "Japanese maple",
+					"Narrative": "", 
+",
+					"Hint": "Go down further towards a serene pond, you’ll see a colorful tree.",
+					"Fact": "Did you know…  Acer in Latin means sharp, referring to the shape of the leaves."
+				},
+				{
+					"StopType": "Story",
+					// in the narrative screen 
+					"Narrative": "Reds and greens abound! I could blend in pretty well against this tree. No flowers for me though!",
+				},
+				{
+					"StopType": "Story",
+					"Narrative": "Thanks for completing this quest." 
+				}
+				//checkpoint 14
+				{
+					"StopType": "CheckPoint",
+					"Lat":  47.6382047,
+					"Long": -122.2963409,
+					"Title": "Azalea Way, near multiple shrubs",
+					"BackgroundImage": "checkpoint14.jpg",
+					"FoundImage": "checkpoint14.jpg",
+					"Plant": "Cornus nuttallii",
+					"Common": "Pacific dogwood",
+					"Narrative": "",
+					"Hint": "Keep going further down Azalea Way, you’ll see some big buttercup-like flowers..", 
+					"Fact": "Did you know…this type of dogwood’s flower is the provincial flower of British Columbia."
+				{
+					"StopType": "Story",
+					// in the narrative screen 
+					"Narrative": "  These flowers look tasty, almost like overgrown buttercups. They’re so high up the tree, I’ll have to do a lot of hovering to get to them.",
+				},
+				{
+					"StopType": "Story",
+					"Narrative": "Thanks for completing this quest." 
+				}
+				//checkpoint 15    
+				{
+					"StopType": "CheckPoint",
+					"Lat": 47.6394366,
+					"Long": -122.2957039,
+					"Title": "Azalea Way" 
+					"BackgroundImage": "checkpoint15.jpg",
+					"FoundImage": "checkpoint15.jpg",
+					"Plant": "Rhododendron simsii",
+					"Common": "Yangtze rhododendron",
+					"Narrative": "",
+					"Hint": "Go down to the end of Azalea Way, you’re almost done.",
+					"Fact": "Did you know… some rhododendrons produce toxic pollen and nectar, and honey made from the specific pollen can be hallucinogenic to humans."
+				},
+				{
+					"StopType": "Story",
+					// in the narrative screen 
+					"Narrative": "Hey looks like you’re all done down this path! You’ve found me a bunch of yummy flowers, thanks so much!",
+				},
+				{
+					"StopType": "Story",
+					"Narrative": "Thanks for all the help, Explorer! I’m gonna have sooo many yummy options to feast on before I head off to Alaska. We’re lucky to have so many beautiful plants around us to appreciate, and eat!  
+					
+					I hope along the way I have more flowers to eat. This shows us that the diversity of plants is super important for animals like me. 
+					
+					You can help migrating species like me by planting a diversity of plants in your own garden.",
+				}
+			]
+		}
+	]
+}
