@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="vertical"
+    p1:layout_width="fill_parent"
+    p1:layout_height="fill_parent"
+    p1:background="@android:color/darker_gray">
+    <ImageView
+        p1:src="@android:drawable/ic_menu_gallery"
+        p1:layout_width="fill_parent"
+        p1:layout_height="fill_parent"
+        p1:id="@+id/background" />
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:layout_width="fill_parent"
+        p1:layout_height="40dp"
+        p1:id="@+id/navbar"
+        p1:minWidth="25px"
+        p1:minHeight="25px">
+        <Button xmlns:app="http://schemas.android.com/apk/res-auto"
+            p1:text="Home"
+            p1:layout_width="60dp"
+            p1:layout_height="match_parent"
+            p1:id="@+id/home"
+            p1:textSize="10dp"
+            p1:backgroundTint="#ff000000"
+            p1:textColor="#ffffffff"
+            p1:textAllCaps="false"
+            p1:includeFontPadding="false"
+            p1:elegantTextHeight="false" />
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="vertical"
+        p1:layout_width="fill_parent"
+        p1:layout_height="match_parent"
+        p1:id="@+id/images"
+        p1:layout_marginTop="37.5dp">
+        <TextView
+            p1:text="Loading common name..."
+            p1:id="@+id/common"
+            p1:textAlignment="center"
+            p1:layout_height="30dp"
+            p1:layout_width="300dp"
+            p1:textColor="#ffffffff"
+            p1:textStyle="bold"
+            p1:textSize="20dp"
+            p1:layout_gravity="center"
+            p1:shadowColor="#ff000000"
+            p1:background="#ff000000" />
+        <TextView
+            p1:text="Loading plant name..."
+            p1:id="@+id/plant"
+            p1:textAlignment="center"
+            p1:layout_height="30dp"
+            p1:layout_width="300dp"
+            p1:textColor="#ffffffff"
+            p1:textStyle="italic"
+            p1:textSize="16dp"
+            p1:layout_gravity="center"
+            p1:shadowColor="#ff000000"
+            p1:background="#ff000000" />
+        <TextView
+            p1:text="loading distance from objective..."
+            p1:textSize="12dp"
+            p1:id="@+id/distance"
+            p1:textStyle="bold"
+            p1:layout_width="200dp"
+            p1:layout_height="20dp"
+            p1:background="#ff000000"
+            p1:textColor="#ffffffff"
+            p1:layout_gravity="center" />
+        <ImageView
+            p1:src="@android:drawable/ic_menu_gallery"
+            p1:layout_width="match_parent"
+            p1:layout_height="200dp"
+            p1:id="@+id/scope" />
+        <ImageView
+            p1:src="@android:drawable/ic_menu_gallery"
+            p1:layout_width="match_parent"
+            p1:layout_height="150dp"
+            p1:id="@+id/sprite"
+            p1:layout_centerHorizontal="true"
+            p1:layout_marginLeft="0.0dp" />
+        <Button xmlns:app="http://schemas.android.com/apk/res-auto"
+            p1:text="&gt;"
+            p1:layout_width="60dp"
+            p1:layout_height="60dp"
+            p1:id="@+id/button1"
+            p1:textSize="30dp"
+            p1:layout_gravity="center"
+            app:backgroundTint="#ff000000"
+            p1:backgroundTint="#ff000000"
+            p1:textColor="#ffffffff"
+            p1:layout_below="@id/button1" />
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:gravity="bottom"
+        p1:layout_width="fill_parent"
+        p1:layout_height="fill_parent"
+        p1:layout_marginTop="500dp">
+        <TextView
+            p1:text="latitude"
+            p1:textAppearance="?android:attr/textAppearanceMedium"
+            p1:layout_height="wrap_content"
+            p1:layout_width="50dp"
+            p1:id="@+id/latitude"
+            p1:textSize="10dp"
+            p1:layout_weight="1"
+            p1:textColor="#ffffffff"
+            p1:background="#ff000000" />
+        <TextView
+            p1:text="longitude"
+            p1:textAppearance="?android:attr/textAppearanceMedium"
+            p1:layout_width="50dp"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/longitude"
+            p1:textSize="10dp"
+            p1:layout_weight="1"
+            p1:textColor="#ffffffff"
+            p1:textColorHighlight="#ff000000"
+            p1:background="#ff000000" />
+        <TextView
+            p1:text="debug info"
+            p1:id="@+id/debugInfo"
+            p1:layout_width="100dp"
+            p1:layout_height="wrap_content"
+            p1:textSize="10dp"
+            p1:textColorHighlight="#ff000000"
+            p1:textColor="#ffffffff" />
+    </LinearLayout>
+</RelativeLayout>
