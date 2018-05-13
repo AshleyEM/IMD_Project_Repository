@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="vertical"
+    p1:layout_width="fill_parent"
+    p1:layout_height="fill_parent"
+    p1:background="@android:color/@android:color/black">
+    <ImageView
+        p1:src="@android:drawable/ic_menu_gallery"
+        p1:layout_width="fill_parent"
+        p1:layout_height="fill_parent"
+        p1:id="@+id/background" />
+    <Button
+        p1:layout_width="50dp"
+        p1:layout_height="40dp"
+        p1:id="@+id/next"
+        p1:text="DEBUG NEXT"
+        p1:textSize="12px"
+        p1:layout_marginTop="500dp" />
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:layout_width="fill_parent"
+        p1:layout_height="fill_parent">
+        <TextView
+            p1:text="latitude"
+            p1:textAppearance="?android:attr/textAppearanceMedium"
+            p1:layout_height="20.0dp"
+            p1:layout_width="130.0dp"
+            p1:id="@+id/latitude"
+            p1:textSize="11dp"
+            p1:textColor="#ffffffff"
+            p1:background="#ff000000" />
+        <TextView
+            p1:text="longitude"
+            p1:textAppearance="?android:attr/textAppearanceMedium"
+            p1:layout_width="122.0dp"
+            p1:layout_height="20.0dp"
+            p1:id="@+id/longitude"
+            p1:textSize="11dp"
+            p1:textColor="#ffffffff"
+            p1:textColorHighlight="#ff000000"
+            p1:background="#ff000000" />
+        <TextView
+            p1:text="distance"
+            p1:id="@+id/distance"
+            p1:layout_width="139.0dp"
+            p1:layout_height="20.0dp"
+            p1:textSize="11dp"
+            p1:textColorHighlight="#ff000000"
+            p1:textColor="#ffffffff"
+            p1:background="#ff000000" />
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:layout_width="fill_parent"
+        p1:layout_height="54.0dp"
+        p1:id="@+id/navbar"
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:layout_marginTop="11.0dp">
+        <Button xmlns:app="http://schemas.android.com/apk/res-auto"
+            p1:text="Home"
+            p1:layout_width="72.0dp"
+            p1:layout_height="38.0dp"
+            p1:id="@+id/home"
+            p1:textSize="15dp"
+            p1:backgroundTint="#ff000000"
+            p1:textColor="#ffffffff"
+            p1:textAllCaps="false"
+            p1:includeFontPadding="false"
+            p1:elegantTextHeight="false"
+            p1:layout_marginTop="0.0dp"
+            p1:layout_marginLeft="60dp" />
+        <Button xmlns:app="http://schemas.android.com/apk/res-auto"
+            p1:text="h"
+            p1:layout_width="50dp"
+            p1:layout_height="50dp"
+            p1:id="@+id/hint"
+            p1:textSize="20dp"
+            p1:backgroundTint="#ff000000"
+            p1:textColor="#ffffffff"
+            p1:textAllCaps="false"
+            p1:includeFontPadding="false"
+            p1:elegantTextHeight="false"
+            p1:layout_marginTop="6.0dp"
+            p1:layout_marginLeft="105.5dp"
+            p1:textStyle="bold"
+            p1:typeface="serif" />
+        <Button xmlns:app="http://schemas.android.com/apk/res-auto"
+            p1:text="i"
+            p1:layout_width="50dp"
+            p1:layout_height="50dp"
+            p1:id="@+id/fact"
+            p1:textSize="20dp"
+            p1:backgroundTint="#ff000000"
+            p1:textColor="#ffffffff"
+            p1:textAllCaps="false"
+            p1:includeFontPadding="false"
+            p1:elegantTextHeight="false"
+            p1:layout_marginTop="5.5dp"
+            p1:layout_marginLeft="0.0dp"
+            p1:textStyle="bold"
+            p1:typeface="serif" />
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="vertical"
+        p1:layout_width="fill_parent"
+        p1:layout_height="match_parent"
+        p1:id="@+id/images"
+        p1:layout_marginTop="200dp">
+        <ImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            p1:src="@android:drawable/ic_menu_gallery"
+            p1:layout_width="match_parent"
+            p1:layout_height="150dp"
+            p1:id="@+id/scope"
+            app:backgroundTint="#ff000000" />
+        <ImageView
+            p1:src="@android:drawable/ic_menu_gallery"
+            p1:layout_width="match_parent"
+            p1:layout_height="150dp"
+            p1:id="@+id/sprite"
+            p1:layout_centerHorizontal="true"
+            p1:layout_marginLeft="0.0dp" />
+        <Button xmlns:app="http://schemas.android.com/apk/res-auto"
+            p1:text="Plant found!"
+            p1:layout_width="142.0dp"
+            p1:layout_height="50.0dp"
+            p1:id="@+id/found"
+            p1:textSize="15dp"
+            p1:layout_gravity="center"
+            app:backgroundTint="#ff000000"
+            p1:backgroundTint="#ffffbb00"
+            p1:textColor="#ffffffff" />
+    </LinearLayout>
+</RelativeLayout>
