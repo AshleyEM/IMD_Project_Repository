@@ -1,0 +1,195 @@
+{
+  "Game": {
+    "Quests": [
+      {
+      "stopname": "Crow",
+			"spriteImg": "crow_sprite.png",
+			"stops": [
+				{
+					"stoptype": "story",
+          "backgroundImg": "mobius",
+					"narrative": "Hey there Explorer. My name’s Corvo. I’m a Corvus brachyrhynchos, a good ol’ American crow. But unlike your average American crow, I’m college educated! I am one of thousands of crows that call UW Bothell home, it’s getting to be a bit of a problem really. Come with me and check out the quirks of this place we roost in each day."
+				},
+				{
+					"stoptype": "checkpoint",
+          "lat": 47.749616,
+          "long": -122.193142,
+					"stopname": "Truly House",
+					"backgroundImg": "truly_house",
+					"Plant": "The Truly House",
+					"Common": "",
+					"narrative": "",
+					"hint": "Your next stop is going to be The Truly House at the top of the hill.",
+					"fact": ""
+				},
+				{
+					"stoptype": "story",
+          "backgroundImg": "truly_house",
+					"narrative": "This old ranch house is a hold over from when this campus was agricultural land. Now it’s a standing relic to what this place used to be. Plenty of food and roosts though, so us crows keep coming."
+				},
+				{
+					"stoptype": "checkpoint",
+					"lat": 47.759186,
+					"long": -122.192194,
+					"stopname": "Nature Walk",
+					"backgroundImg": "nature_walk",
+					"Plant": "The Nature Walk",
+					"Common": "",
+					"narrative": "",
+					"hint": "Your next stop is going to be The Nature Walk behind The Guardians. Go East, downhill from the Truly House.",
+					"fact": ""
+				},
+				{
+					"stoptype": "story",
+          "backgroundImg": "nature_walk",
+					"narrative": "Moss and fallen branches litter this pathway, it’s really like nature has taken over isn’t it?"
+				},
+				{
+					"stoptype": "checkpoint",
+					"lat": 47.760422,
+					"long": -122.192356,
+					"stopname": "The Ancestors",
+					"backgroundImg": "ancestors",
+					"Plant": "The Ancestors",
+					"Common": "",
+					"narrative": "",
+					"hint": "Your next stop is going to be The Ancestors in front of the Nature Walk. They are wooden statues, downhill from the Nature Walk.",
+					"fact": ""
+				},
+				{
+					"stoptype": "story",
+          "backgroundImg": "ancestors",
+					"narrative": "These wooden statues have been here as long as I can remember! They watch as students and animals pass through the campus after year."
+				},
+				{
+					"stoptype": "checkpoint",
+					"lat": 47.760980, 
+					"long": -122.1911924,
+					"stopname": "Pollinator Field",
+					"backgroundImg": "pollinator_field",
+					"Plant": "The Pollinator Field",
+					"Common": "",
+					"narrative": "",
+					"hint": "The Pollinator Field is a patch of flowers in front of the Cascadia buildings, with three pillars showing art.",
+					"fact": ""
+				},
+				{
+					"stoptype": "story",
+          "backgroundImg": "pollinator_field",
+					"narrative": "The pollinator field has flowers and plants to attract pollinating insects. Bees love a juicy flower, and crows love a juicy insect, yum!"
+				},
+				{
+					"stoptype": "checkpoint",
+					"lat": 47.760330,
+					"long": -122.191711,
+					"stopname": "Food Forest",
+					"backgroundImg": "food_forest",
+					"Plant": "The Food Forest",
+					"Common": "",
+					"narrative": "",
+					"hint": "Your next stop is close to the Pollinator Field, it's going to be The Food Forest by the Library.",
+					"fact": ""
+				},
+				{
+					"stoptype": "story",
+          "backgroundImg": "food_forest",
+					"narrative": "The food forest uses permaculture, plants put in permanently for us to enjoy over time. It has greens like kale and trees with persimmons and mulberries. Treats are seasonal, but it’s still worth the roost."
+				},
+				{
+					"stoptype": "checkpoint",
+					"lat": 47.759913,
+					"long": -122.190955,
+					"stopname": "Mobius",
+					"backgroundImg": "mobius",
+					"Plant": "The Mobius",
+					"Common": "", 
+					"narrative": "",
+					"hint": "The Mobius is in the center of campus, in front of the library",
+					"fact": ""
+				},
+				{
+					"stoptype": "story",
+          "backgroundImg": "mobius",
+					"narrative": "It’s the Mobius, center area of the campus, flanked by buildings on either side. We crows like to swoop down on unsuspecting students getting food from the cafe, as the space in front of the library is one of the few uncovered walkway spaces."
+				},				
+				{
+					"stoptype": "checkpoint",
+					"lat": 47.760413,
+					"long": -122.190292,
+					"stopname": "Sports Overlook",
+					"backgroundImg": "roost",
+					"FoundImage": "Sports Overlook.png",
+					"Plant": "The Sports Overlook",
+					"Common": "",
+					"narrative": "",
+					"hint": "Follow the sky bridge towards the ARC to find the Sports Overlook viewing the Wetlands Walkway.",
+					"fact": ""
+				},
+				{
+					"stoptype": "story",
+          "backgroundImg": "roost",
+					"narrative": "So many things to see overlooking the sports-field. The awning above shields visitors from rain and gives roost to birds as well. Caw!"
+				},
+				{
+					"stoptype": "checkpoint",
+					"lat": 47.761315, 
+					"long": -122.190603,
+					"stopname": "Community Gardens",
+					"backgroundImg": "community_gardens",
+					"FoundImage": "Community Gardens.png",
+					"Plant": "The Community Gardens",
+					"Common": "",
+					"narrative": "",
+					"hint": "Walk around the awning of the Sports Overlook/North Creek Event Center and down the stairs, then walk towards the parking lot and down the ramp.",
+					"fact": "Development of produce and agriculture in this area are a big reason that we crows are drawn here to Bothell."
+				},
+				{
+					"stoptype": "story",
+          "backgroundImg": "community_gardens",
+					"narrative": "The community gardens are a great place to grab a snack (if you’re a crow). Placed by the sports fields and parking, it gets plenty of sunlight."
+				},
+				{
+					"stoptype": "checkpoint",
+					"lat": 47.763248, 
+					"long": -122.191711,
+					"stopname": "Greenhouse",
+					"backgroundImg": "greenhouse",
+					"Plant": "The Greenhouse",
+					"Common": "",
+					"narrative": "",
+					"hint": "Continue along cement paved path towards the wetlands, and turn left at the veterans' memorial. Walk for a bit and turn right at the sign for the Green Conservatory.",
+					"fact": ""
+				},
+				{
+					"stoptype": "story",
+          "backgroundImg": "greenhouse",
+					"narrative": "Plants grow here all around the year, but we birds can’t even get to them! Humans use this space to start seedlings and manage restoration projects for wildlife on campus."
+				},
+				{
+					"stoptype": "checkpoint",
+					"lat": 47.760552, 
+					"long": -122.188853,
+					"stopname": "Wetlands Walkway",
+					"backgroundImg": "wetlands",
+					"FoundImage": "Wetlands.png",
+					"Plant": "Wetlands Walkway",
+					"Common": "",
+					"narrative": "",
+					"hint" : "Walk back the way you came, going past the veterans' memorial and turning right at the wooden boardwalk.",
+					"fact": ""
+				},
+				{
+					"stoptype": "story",
+          "backgroundImg": "wetlands",
+					"narrative": "Every evening at sundown, all crows in the area descend upon the wetlands. Watch your step, and your head! The sound of a thousand crows is deafening, but worse still is the grossness of a thousand bird poops. After years of crow populations pooping into the wetlands during their evening roost, the Sammamish waterways are becoming toxic for other wildlife in the region."  
+				},
+				{
+					"stoptype": "story",
+          "backgroundImg": "mobius",
+					"narrative": "Thanks for completing this quest."
+        }
+       ]
+      }
+    ]
+  }
+}

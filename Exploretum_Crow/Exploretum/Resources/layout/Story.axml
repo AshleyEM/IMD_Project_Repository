@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="vertical"
+    p1:layout_width="fill_parent"
+    p1:layout_height="fill_parent"
+    p1:background="@android:color/@android:color/black">
+    <ImageView
+        p1:src="@android:drawable/ic_menu_gallery"
+        p1:layout_width="fill_parent"
+        p1:layout_height="fill_parent"
+        p1:id="@+id/background" />
+    <ImageView
+        p1:src="@android:drawable/ic_menu_gallery"
+        p1:layout_width="160dp"
+        p1:layout_height="160dp"
+        p1:id="@+id/sprite"
+        p1:layout_gravity="right"
+        p1:layout_marginRight="0.0dp"
+        p1:layout_marginLeft="250dp"
+        p1:layout_marginTop="450dp" />
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:layout_width="fill_parent"
+        p1:layout_height="40dp"
+        p1:id="@+id/navbar"
+        p1:minWidth="25px"
+        p1:minHeight="25px">
+        <Button xmlns:app="http://schemas.android.com/apk/res-auto"
+            p1:text="Home"
+            p1:layout_width="60dp"
+            p1:layout_height="match_parent"
+            p1:id="@+id/home"
+            p1:textSize="10dp"
+            app:backgroundTint="#ff000000"
+            p1:backgroundTint="#ff000000"
+            p1:textColor="#ffffffff"
+            p1:textAllCaps="false"
+            p1:includeFontPadding="false"
+            p1:elegantTextHeight="false"
+            p1:layout_gravity="left" />
+        <TextView
+            p1:text="Quest Name"
+            p1:id="@+id/questName"
+            p1:textAlignment="center"
+            p1:layout_height="21.0dp"
+            p1:layout_width="98.0dp"
+            p1:textColor="#ffffffff"
+            p1:textStyle="bold"
+            p1:textSize="14dp"
+            p1:background="#ff000000"
+            p1:layout_gravity="center"
+            p1:layout_marginTop="0.0dp"
+            p1:layout_marginLeft="25.5dp" />
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="vertical"
+        p1:layout_width="fill_parent"
+        p1:layout_height="match_parent"
+        p1:id="@+id/images"
+        p1:layout_marginTop="115.5dp">
+        <ScrollView
+            p1:layout_width="203dp"
+            p1:layout_height="200dp"
+            p1:layout_marginLeft="10dp"
+            p1:layout_gravity="center"
+            p1:id="@+id/scrollView1"
+            p1:layout_marginTop="140dp">
+            <TextView
+                p1:text="narrative"
+                p1:layout_width="match_parent"
+                p1:layout_height="match_parent"
+                p1:id="@+id/narrative"
+                p1:textColor="#ffffffff"
+                p1:textSize="18dp" />
+        </ScrollView>
+        <Button xmlns:app="http://schemas.android.com/apk/res-auto"
+            p1:text="&gt;"
+            p1:layout_width="60dp"
+            p1:layout_height="60dp"
+            p1:id="@+id/next"
+            p1:textSize="30dp"
+            p1:layout_gravity="center"
+            app:backgroundTint="#ff000000"
+            p1:backgroundTint="#ff000000"
+            p1:textColor="#ffffffff"
+            p1:layout_below="@id/next" />
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:gravity="bottom"
+        p1:layout_width="fill_parent"
+        p1:layout_height="50dp"
+        p1:layout_marginTop="500dp"
+        p1:minWidth="25px"
+        p1:minHeight="25px" />
+</RelativeLayout>
