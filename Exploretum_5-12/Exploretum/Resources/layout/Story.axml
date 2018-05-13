@@ -27,8 +27,8 @@
         p1:minHeight="25px">
         <Button xmlns:app="http://schemas.android.com/apk/res-auto"
             p1:text="Home"
-            p1:layout_width="68.0dp"
-            p1:layout_height="36.0dp"
+            p1:layout_width="72.0dp"
+            p1:layout_height="38.0dp"
             p1:id="@+id/home"
             p1:textSize="15dp"
             app:backgroundTint="#ff000000"
@@ -39,19 +39,6 @@
             p1:elegantTextHeight="false"
             p1:layout_gravity="left"
             p1:layout_marginLeft="60dp" />
-        <TextView
-            p1:text="Quest Name"
-            p1:id="@+id/questName"
-            p1:textAlignment="center"
-            p1:layout_height="21.0dp"
-            p1:layout_width="98.0dp"
-            p1:textColor="#ffffffff"
-            p1:textStyle="bold"
-            p1:textSize="14dp"
-            p1:background="#ff000000"
-            p1:layout_gravity="center"
-            p1:layout_marginTop="0.0dp"
-            p1:layout_marginLeft="25.5dp" />
     </LinearLayout>
     <LinearLayout
         p1:orientation="vertical"
