@@ -294,8 +294,8 @@ namespace Exploretum  // ALL QUEST SCREENS
                 // if distance is beyond the scope, just show the 'cold' (last) frame by default
                 scope.SetImageResource(scope_frames[scope_frames.Length -1]);
             }
-			// if close to coordinates, go to next stop
-			if (distance <= 15)
+			// if close to coordinates, reveal PLANT FOUND! button
+			if (distance <= 10)
 			{
 				foundButton.Visibility = ViewStates.Visible;
 			}
