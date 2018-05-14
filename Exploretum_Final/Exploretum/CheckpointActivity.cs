@@ -269,7 +269,7 @@ namespace Exploretum  // ALL QUEST SCREENS
             const int RANGE = 8; // How spread out distances are (smaller number = more frames). Multiplied by index of spectrescope frames.  
             int indexOfFrameToShow = distanceRounded / RANGE;
             //                          {img1,  img2,   img3 ... }    
-            //                   HOT     0m      8m      24m     32m     40m   COLD
+            //                   HOT     0m      8m      16m     24m     32m   COLD
             //                          0*8     1*8     2*8     3*8     4*8 
             //                      index*RANGE                           
 
@@ -289,7 +289,7 @@ namespace Exploretum  // ALL QUEST SCREENS
                 scope.SetImageResource(scope_frames[scope_frames.Length -1]);
             }
 			// if close to coordinates, reveal PLANT FOUND! button
-			if (distance <= 10)
+			if (distance <= 20)
 			{
 				foundButton.Visibility = ViewStates.Visible;
 			}
