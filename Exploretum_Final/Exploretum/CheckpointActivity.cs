@@ -68,6 +68,7 @@ namespace Exploretum  // ALL QUEST SCREENS
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
+            RequestWindowFeature(WindowFeatures.NoTitle);
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.Checkpoint);
             questNumber = Intent.GetIntExtra("questNumber", 0);
