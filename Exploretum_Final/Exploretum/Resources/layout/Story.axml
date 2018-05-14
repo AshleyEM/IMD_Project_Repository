@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="vertical"
+    p1:layout_width="fill_parent"
+    p1:layout_height="fill_parent"
+    p1:background="@android:color/@android:color/black">
+    <ImageView
+        p1:src="@android:drawable/ic_menu_gallery"
+        p1:layout_width="fill_parent"
+        p1:layout_height="fill_parent"
+        p1:scaleType="centerCrop"
+        p1:id="@+id/background" />
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:layout_width="fill_parent"
+        p1:layout_height="40dp"
+        p1:id="@+id/navbar"
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:background="#be000000">
+        <Button xmlns:app="http://schemas.android.com/apk/res-auto"
+            p1:text="Home"
+            p1:layout_width="72.0dp"
+            p1:layout_height="38.0dp"
+            p1:id="@+id/home"
+            p1:textSize="15dp"
+            app:backgroundTint="#ff000000"
+            p1:backgroundTint="#ff000000"
+            p1:textColor="#ffffffff"
+            p1:textAllCaps="false"
+            p1:includeFontPadding="false"
+            p1:elegantTextHeight="false"
+            p1:layout_gravity="left"
+            p1:layout_marginLeft="8dp" />
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="vertical"
+        p1:layout_width="fill_parent"
+        p1:layout_height="match_parent"
+        p1:layout_marginTop="115.5dp">
+        <ScrollView
+            p1:layout_width="250dp"
+            p1:layout_height="240dp"
+            p1:layout_marginLeft="10dp"
+            p1:layout_gravity="center"
+            p1:id="@+id/scrollView1"
+            p1:requiresFadingEdge="vertical"
+            p1:fadingEdgeLength="60dp"
+            p1:layout_marginTop="140dp">
+            <LinearLayout
+                p1:orientation="vertical"
+                p1:layout_width="fill_parent"
+                p1:layout_height="match_parent">
+                <TextView
+                    p1:text="narrative"
+                    p1:layout_width="match_parent"
+                    p1:layout_height="match_parent"
+                    p1:id="@+id/narrative"
+                    p1:textColor="#ffffffff"
+                    p1:textSize="18dp" />
+                <ImageButton xmlns:app="http://schemas.android.com/apk/res-auto"
+                    p1:layout_width="82.0dp"
+                    p1:layout_height="71.0dp"
+                    p1:id="@+id/next"
+                    p1:layout_gravity="center"
+                    p1:scaleType="centerInside"
+                    p1:backgroundTint="@android:color/transparent"
+                    p1:src="@drawable/next"
+                    p1:layout_marginRight="20.0dp" />
+                <ImageView
+                    p1:layout_width="40dp"
+                    p1:layout_height="60dp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <ImageView
+        p1:src="@android:drawable/ic_menu_gallery"
+        p1:layout_width="200dp"
+        p1:layout_height="200dp"
+        p1:id="@+id/sprite"
+        p1:layout_marginTop="459.0dp"
+        p1:layout_marginLeft="235.5dp" />
+</RelativeLayout>

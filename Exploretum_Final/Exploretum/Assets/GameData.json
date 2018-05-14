@@ -1,0 +1,282 @@
+{
+  "Game": {
+    "Quests": [
+      {
+        "name": "Moth",
+        "spriteImg": "leopard_moth_sprite",
+        "backgroundImg": "",
+        "stops": [
+          {
+            "stoptype": "story",
+            "backgroundImg": "checkpoint1",
+            "narrative": "Hey there Explorer. My name’s Scrib. I’m an Ecpantheria scribonia, but most non-Latin speakers know me as a leopard moth. My species, in our larval form, are big fans of fine dining, especially on the flowers of Magnolia stellata, or magnolia trees. Adults, like me, feed on nectar from most flowering plants. Springtime is prime time for my favorite meal to bloom. This past spring, however, has been super cold...hello winter number two. This means that the magnolias haven’t been able to bloom as gloriously. I need you to help me find some lush magnolias please! Keep in mind, I eat other plants too, maybe you can help me find ones with flowers. My friend Piña the Pinecone is also out here somewhere. Maybe we’ll cross paths with her. Start off your exploration by venturing to the Winter Garden. Good luck!"
+          },
+          {
+            "stoptype": "checkpoint",
+            "backgroundImg": "checkpoint1bg",
+            "stopname": "Winter Garden",
+            "plant": "Pieris japonica, Mountain Fire",
+            "common": "Japanese andromeda",
+            "hint": "Start off your exploration by venturing into the Winter Garden.",
+            "fact": "Did you know… The Pieris part of this plant’s name is the name of the home of the Greek Muses",
+            "lat": 47.6385,
+            "long": -122.2955 
+          },
+          {
+            "stoptype": "story",
+            "backgroundImg": "checkpoint1",
+            "narrative": "Hey Explorer, congrats on your first plant find! These flowers are tiny but accompanied by mighty, fiery leaves. You think I can reach the nectar?"
+          },
+          {
+            "stoptype": "checkpoint",
+            "backgroundImg": "checkpoint2bg",
+            "stopname": "Winter Garden",
+            "plant": "Acer palmatum, Ichigyo ji",
+            "common": "Japanese maple",
+            "hint": "Your next stop is going to be near a neat little pond, head to the Japanese Maples.",
+            "fact": "Did you know... The latter part of the name of this tree, palmatum, was named after the palms of hands, since they look similar to the shape of the leaves",
+            "lat": 47.6375,
+            "long": -122.2949
+          },
+          {
+            "stoptype": "story",
+            "backgroundImg": "checkpoint2",
+            "narrative": "These maples are so colorful! There’s tons of versions with all sorts of leaf colors. Looks like there’s no flowers for me, though…"
+          },
+          {
+            "stoptype": "checkpoint",
+            "backgroundImg": "checkpoint3bg",
+            "stopname": "Woodland Garden",
+            "plant": "Rhododendron schlippenbachii",
+            "common": "Royal azalea",
+            "hint": "Your next stop is going to be near a neat little pond, head to the Japanese Maples.",
+            "fact": "Did you know... These are technically azaleas, but they're part of the larger plant family of rhododendron.",
+            "lat": 47.6375,
+            "long": -122.2949
+          },
+          {
+            "stoptype": "story",
+            "backgroundImg": "checkpoint3",
+            "narrative": "Finally, some more food. These flowers are royally gorgeous! They’re native to Korea, they even have a festival dedicated to them."
+          },
+          {
+            "stoptype": "checkpoint",
+            "backgroundImg": "checkpoint4bg",
+            "stopname": "Asiatic Maples",
+            "plant": "Acer triflorum",
+            "common": "Three-flowered maple",
+            "hint": "Your next stop is also going to be another native Korean plant, you’ll find it in the Asiatic Maples section",
+            "fact": "Did you know… The Pieris part of this plant’s name is the name of the home of the Greek Muses.",
+            "lat": 47.6358,
+            "long": -122.2961
+          },
+          {
+            "stoptype": "story",
+            "backgroundImg": "checkpoint4",
+            "narrative": "Not one, not two, but three flowers clustered together on this fine maple specimen! Yum."
+          },
+          {
+            "stoptype": "checkpoint",
+            "backgroundImg": "checkpoint5bg",
+            "stopname": "Magnolias",
+            "plant": "Magnolia stellata",
+            "common": "Star magnolia",
+            "hint": "The next stop on your radar is also going to be a flowering tree my favorite one at that. Next stop, Magnolias!",
+            "fact": "Did you know…  Magnolias, as a species, are ancient. Beetles were the first insects to pollinate them.",
+            "lat": 47.6358,
+            "long": -122.2961
+          },
+          {
+            "stoptype": "story",
+            "backgroundImg": "checkpoint5",
+            "narrative": "You did it, Explorer! You found a magnolia tree! Thankfully, the flowers are in bloom and made it through the harsh winter and it looks like not many of them were frost damaged. This is going to be a feast for my species. It’s a feast for your eyes too. Look out for Piña next!"
+          }
+        ]
+      },
+      {
+        "name": "Pines",
+        "spriteImg": "pine_sprite",
+        "backgroundImg": "quest-pines",
+        "stops": [
+          {
+            "stoptype": "story",
+            "backgroundImg": "checkpoint6",
+            "narrative": "Hey there Explorer. I’m Piña the Pinecone, of the tree Pinus rigida, or the pitch pine. My family of trees has undergone a vicious attack from red turpentine beetles. Because of the drier summers, we couldn’t keep up with the lack of water reaching us. The beetles ate through our bark to reach our phloem, and the trees could not handle all the stress. Since 2005, about 40 of us at the Arboretum have been infested with beetles. Our trunks are sturdy and rigid, the rigida moniker isn’t a lie, but after droughts and beetle attacks, even our mighty bodies are taken down. I need your help. I need you to go through the Arboretum and help me find one of my surviving family members. Along the way, you’ll see lots of other plants. Hopefully, seeing these living, lush plants will encourage you to learn about all of them while they are alive, learn about biodiversity, and what YOU can do to help preserve plants! Start off by heading towards the Giant Sequoias."
+          },
+          {
+            "stoptype": "checkpoint",
+            "backgroundImg": "checkpoint6bg",
+            "stopname": "Giant Sequoia",
+            "plant": "Sequoiadendron giganteum",
+            "common": "Giant Sequoia",
+            "hint": "Start off by heading towards the Giant Sequoias.",
+            "fact": "Did you know… Giant sequoias are one of the oldest living species on Earth, with the oldest recorded one being around 3500 years old.",
+            "lat": 47.633665,
+            "long": -122.294425
+          },
+          {
+            "stoptype": "story",
+            "backgroundImg": "checkpoint6",
+            "narrative": "What a huge specimen! My family doesn’t grow nearly as big. This guy has probably been around longer than most people working at the Arboretum. I wonder what he’s seen…"
+          },
+          {
+            "stoptype": "checkpoint",
+            "backgroundImg": "checkpoint7bg",
+            "stopname": "Camellias",
+            "plant": "Camellia japonica ‘Nina Avery’",
+            "common": "Camellia",
+            "hint": "Your next stop is going to be straight ahead in the Camellia section.",
+            "fact": "Did you know... Camellias are important symbolic plants in Japan and China. In China, they’re lucky symbols during Chinese New year.",
+            "lat": 47.632530,
+            "long": -122.293145
+          },
+          {
+            "stoptype": "story",
+            "backgroundImg": "checkpoint7",
+            "narrative": "This variety of the common camellia is so vibrant! It’s always nice to see such a happy bloom when our environment is usually gloomy."
+          },
+          {
+            "stoptype": "checkpoint",
+            "backgroundImg": "checkpoint8bg",
+            "stopname": "Rhododendron Path",
+            "plant": "Rhododendron macrophyllum",
+            "common": "Pacific rhododendron",
+            "hint": "Your next stop is going to be down a nearby staircase, you’ll see some more lovely flowers.",
+            "fact": "Did you know... These are technically azaleas, but they're part of the larger plant family of rhododendrons.",
+            "lat": 47.632479,
+            "long": -122.294383
+          },
+          {
+            "stoptype": "story",
+            "backgroundImg": "checkpoint8",
+            "narrative": "These little pink flowers are Washington’s state flower. They’re common along the West Coast, and their cousins, other rhododendrons and azaleas, are common throughout the Arboretum."
+          },
+          {
+            "stoptype": "checkpoint",
+            "backgroundImg": "checkpoint9bg",
+            "stopname": "Between Pines and Pink Flowers",
+            "plant": "Rhododendron mollis",
+            "common": "Arneson Gem Azalea",
+            "hint": "Your next stop is along the winding path, just stay straight on. Look out for bright organge flowers.",
+            "fact": "Did you know… this flower hybrid was developd in the 1950’s in Portland, Oregon.",
+            "lat": 47.633071,
+            "long": -122.296033
+          },
+          {
+            "stoptype": "story",
+            "backgroundImg": "checkpoint9",
+            "narrative": "Nice job finding this plant, Explorer! It’s a hybrid and beautiful flower."
+          },
+          {
+            "stoptype": "checkpoint",
+            "backgroundImg": "checkpoint9bg",
+            "stopname": "Pines",
+            "plant": "Pinus rigida",
+            "common": "Pitch pine",
+            "hint": "Your next stop looks like it’s going to be exciting for me! Keep going!",
+            "fact": "Did you know…The pitch pine grows well in soils that most other plants could not thrive in, like swampy and acidic soil. Our trunks are usually quite twisted and irregular, we grow to our own beat.",
+            "lat": 47.634884,
+            "long": -122.296737
+          },
+          {
+            "stoptype": "story",
+            "backgroundImg": "checkpoint10",
+            "narrative": "Hey, it’s a family member! I’m so excited to see an elder tree that’s growing healthily. Looks like some of my fellow pinecones are also developing quite well. Thanks so much for all the help. Thanks for all the help, Explorer! All of this Arboretum exploration has hopefully allowed you to learn a lot about the incredible biodiversity that exists here. You can take your knowledge and apply it at home in your community. You can read up about plant care and start your own garden, responsibly planting a variety of lush plants is a great way to add to the biodiversity of your area. You can talk to the lovely folks at the Arboretum about further learning opportunities as well! Visit arboretumfoundation.org for more info."
+          }
+         ] 
+        },
+        {
+          "name": "Hummingbird",
+          "spriteImg": "hummingbird_sprite",
+          "backgroundImg": "",
+          "stops": [
+            {
+              "stoptype": "story",
+              "backgroundImg": "checkpoint11",
+              "narrative": "Hey there Explorer, nice to meet you, can you see me up here hovering around? I can be hard to miss. My name’s Rufus, and I’m a rufous hummingbird. I’m not really from around here.... I’ve been travelling for so long now, I’ve migrated up to the PNW from Mexico. I still have quite a ways to go, I’m actually heading to Alaska for the season. All this travelling makes me extremely hungry, and my small self needs flower nectar to survive. Some flowering plants throughout the Arboretum may have bloomed early due to changes in climate, so I need you to help me find plants that are currently in bloom and not too frost-bitten. Hopefully we can find a feast, and you can learn about the incredible plants that are all around you!"
+            },
+            {
+              "stoptype": "checkpoint",
+              "backgroundImg": "checkpoint11bg",
+              "stopname": "Azalea Way, near the Pines",
+              "plant": "Rehderodendron macrocarpum",
+              "common": "Chinese rehderodendron",
+              "hint": "Start off on the path near the pines, you’ll see some smaller trees that will be flowering.",
+              "fact": "Did you know…  this tree was discovered in 1931 and is native to China.",
+              "lat": 47.6355507,
+              "long": -122.2968573
+            },
+            {
+              "stoptype": "story",
+              "backgroundImg": "checkpoint11",
+              "narrative": "Looks like there’s a few little blooms on this tree, just a bit bigger than me"
+            },
+            {
+              "stoptype": "checkpoint",
+              "backgroundImg": "checkpoint12bg",
+              "stopname": "Azalea Way, up on an incline",
+              "plant": "Rhododendron ‘Noble Mountain’",
+              "common": "Noble Mountain Rhododendron",
+              "hint": "Go up a small grove incline, you’ll see some vibrant shrubs.",
+              "fact": "Did you know…  the dark red spots in the middle of the petals of this flower are used by bees and other pollinators to guide them to the pollen.",
+              "lat": 47.6361069,
+              "long": -122.2963530
+            },
+            {
+              "stoptype": "story",
+              "backgroundImg": "checkpoint12",
+              "narrative": "Now these are some yummy flowers! I’ll be drowning in nectar.",
+            },
+            {
+              "stoptype": "checkpoint",
+              "backgroundImg": "checkpoint12bg",
+              "stopname": "Azalea Way, near the pond",
+              "plant": "Acer palmatum cultivar",
+              "common": "Japanese maple",
+              "hint": "Go down further towards a serene pond, you’ll see a colorful tree.",
+              "fact": "Did you know…  Acer in Latin means sharp, referring to the shape of the leaves.",
+              "lat": 47.6376203,
+              "long": -122.2963426
+            },
+            {
+              "stoptype": "story",
+              "backgroundImg": "checkpoint13",
+              "narrative": "Reds and greens abound! I could blend in pretty well against this tree. No flowers for me though!"
+            },
+            {
+              "stoptype": "checkpoint",
+              "backgroundImg": "checkpoint13bg",
+              "stopname": "Azalea Way, near multiple shrubs",
+              "plant": "Cornus nuttallii",
+              "common": "Pacific dogwood",
+              "hint": "Keep going further down Azalea Way, you’ll see some big buttercup-like flowers.",
+              "fact": "Did you know…this type of dogwood’s flower is the provincial flower of British Columbia.",
+              "lat": 47.6382047,
+              "long": -122.2963409
+            },
+            {
+              "stoptype": "story",
+              "backgroundImg": "checkpoint14",
+              "narrative": "These flowers look tasty, almost like overgrown buttercups. They’re so high up the tree, I’ll have to do a lot of hovering to get to them."
+            },
+            {
+              "stoptype": "checkpoint",
+              "backgroundImg": "checkpoint14bg",
+              "stopname": "Azalea Way",
+              "plant": "Rhododendron simsii",
+              "common": "Yangtze rhododendron",
+              "hint": "Go down to the end of Azalea Way, you’re almost done.",
+              "fact": "Did you know… some rhododendrons produce toxic pollen and nectar, and honey made from the specific pollen can be hallucinogenic to humans.",
+              "lat": 47.6394366,
+              "long": -122.2957039
+            },
+            {
+              "stoptype": "story",
+              "backgroundImg": "checkpoint15",
+              "narrative": "Hey looks like you’re all done down this path! You’ve found me a bunch of yummy flowers, thanks so much! Thanks for all the help, Explorer! I’m gonna have sooo many yummy options to feast on before I head off to Alaska. We’re lucky to have so many beautiful plants around us to appreciate, and eat! I hope along the way I have more flowers to eat. This shows us that the diversity of plants is super important for animals like me. You can help migrating species like me by planting a diversity of plants in your own garden."
+            }
+         ]
+        }
+       ]
+      }
+}
