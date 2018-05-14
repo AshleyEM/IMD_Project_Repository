@@ -1,4 +1,4 @@
-﻿
+
 using System;
 using System.IO;
 using System.Collections.Generic;
@@ -33,7 +33,8 @@ namespace Exploretum  // ALL QUEST SCREENS
         LocationManager locationManager;
 		Button hintButton;
 		Button factButton;
-		Button found;
+		Button foundButton;
+		Button debugNextButton;
         TextView longitude;
         TextView latitude;
         TextView distanceText;
@@ -104,11 +105,38 @@ namespace Exploretum  // ALL QUEST SCREENS
                 string spriteImgName = (string)obj.SelectToken("Game.Quests["+questNumber+"].spriteImg");   
                 string factText = (string)obj.SelectToken("Game.Quests["+questNumber+"].stops["+stopNumber+"].fact");  
                 string hintText = (string)obj.SelectToken("Game.Quests["+questNumber+"].stops["+stopNumber+"].hint");
+                string next_stop_type = (string)obj.SelectToken("Game.Quests["+questNumber+"].stops["+(stopNumber+1)+"].stoptype");
 
-                // hide FOUND! button
-                found = FindViewById<Button>(Resource.Id.found);
-                found.Visibility = ViewStates.Invisible;
+				// hide 'PLANT FOUND!' button
+				foundButton = FindViewById<Button>(Resource.Id.found);
+				foundButton.Visibility = ViewStates.Invisible;
 
+				debugNextButton = FindViewById<Button>(Resource.Id.next);
+                debugNextButton.Click += delegate {
+				
+                    Intent Debugintent;
+                    // if reached the end of all stops, increment quest number and reset stop number
+                    if (next_stop_type != "story" && next_stop_type != "checkpoint"){
+                        questNumber = questNumber + 1;
+                        stopNumber = 0; 
+                        next_stop_type = (string)obj.SelectToken("Game.Quests["+questNumber+"].stops["+stopNumber+"].stoptype");
+                        stopNumber = -1; // becase the code down below will increment 0 + 1, and will skip the first [0] stop of next quest
+                    }
+                    if (next_stop_type == "story")
+                    {
+                        Debugintent = new Intent(this, typeof(StoryActivity));
+                        Debugintent.PutExtra("questNumber", questNumber);
+                        Debugintent.PutExtra("stopNumber", stopNumber + 1);
+                        StartActivity(Debugintent);
+                    }
+                    else if (next_stop_type == "checkpoint")
+                    {
+                        Debugintent = new Intent(this, typeof(CheckpointActivity));
+                        Debugintent.PutExtra("questNumber", questNumber);
+                        Debugintent.PutExtra("stopNumber", stopNumber + 1);
+                        StartActivity(Debugintent);
+                    }
+				};
                 // Show sprite based on quest number
                 spriteImgView = FindViewById<ImageView>(Resource.Id.sprite);
                 int spriteImgId = Resources.GetIdentifier(spriteImgName, "drawable", PackageName);
@@ -163,11 +191,9 @@ namespace Exploretum  // ALL QUEST SCREENS
                 // (debugging) see distance between quest location/current location
                 distanceText = FindViewById<TextView>(Resource.Id.distance);
 
-                // (debugging) go to next stop
-                Button next = FindViewById<Button>(Resource.Id.next);
-                next.Click += delegate
+                // Go to next stop
+                foundButton.Click += delegate
                 {   
-                    string next_stop_type = (string)obj.SelectToken("Game.Quests["+questNumber+"].stops["+(stopNumber+1)+"].stoptype"); 
                     Intent intent;
                     // if reached the end of all stops, increment quest number and reset stop number
                     if (next_stop_type != "story" && next_stop_type != "checkpoint"){
@@ -191,8 +217,6 @@ namespace Exploretum  // ALL QUEST SCREENS
                         StartActivity(intent);
                     }
                 };
-
-                
             }
 
         }
@@ -263,45 +287,20 @@ namespace Exploretum  // ALL QUEST SCREENS
             //    12 / 4 = index of image to show 
             //    = scope_frames[3] 
             scope = FindViewById<ImageView>(Resource.Id.scope);
-
-
+            
             if(indexOfFrameToShow < scope_frames.Length){
                 scope.SetImageResource(scope_frames[indexOfFrameToShow]);
             }else{
                 // if distance is beyond the scope, just show the 'cold' (last) frame by default
                 scope.SetImageResource(scope_frames[scope_frames.Length -1]);
             }
-            // if close to coordinates, go to next stop
-            if(distance <= 15){
-				found.Visibility = ViewStates.Visible;
-                found.Click += delegate
-                {   
-                    string next_stop_type = (string)obj.SelectToken("Game.Quests["+questNumber+"].stops["+(stopNumber+1)+"].stoptype"); 
-                    Intent intent;
-                    // if reached the end of all stops, increment quest number and reset stop number
-                    if (next_stop_type != "story" && next_stop_type != "checkpoint"){
-                        questNumber = questNumber + 1;
-                        stopNumber = 0; 
-                        next_stop_type = (string)obj.SelectToken("Game.Quests["+questNumber+"].stops["+stopNumber+"].stoptype");
-                        stopNumber = -1; // becase the code down below will increment 0 + 1, and will skip the first [0] stop of next quest
-                    }
-                    if (next_stop_type == "story")
-                    {
-                        intent = new Intent(this, typeof(StoryActivity));
-                        intent.PutExtra("questNumber", questNumber);
-                        intent.PutExtra("stopNumber", stopNumber + 1);
-                        StartActivity(intent);
-                    }
-                    else if (next_stop_type == "checkpoint")
-                    {
-                        intent = new Intent(this, typeof(CheckpointActivity));
-                        intent.PutExtra("questNumber", questNumber);
-                        intent.PutExtra("stopNumber", stopNumber + 1);
-                        StartActivity(intent);
-                    }
-                };
-                
-            }
+			// if close to coordinates, reveal PLANT FOUND! button
+			if (distance <= 10)
+			{
+				foundButton.Visibility = ViewStates.Visible;
+			}
+			else
+				foundButton.Visibility = ViewStates.Invisible;    
             
             
             
