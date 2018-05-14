@@ -9,39 +9,13 @@
         p1:layout_width="fill_parent"
         p1:layout_height="fill_parent"
         p1:id="@+id/background" />
-    <LinearLayout
-        p1:orientation="horizontal"
-        p1:layout_width="fill_parent"
-        p1:layout_height="fill_parent">
-        <TextView
-            p1:text="latitude"
-            p1:textAppearance="?android:attr/textAppearanceMedium"
-            p1:layout_height="20.0dp"
-            p1:layout_width="130.0dp"
-            p1:id="@+id/latitude"
-            p1:textSize="11dp"
-            p1:textColor="#ffffffff"
-            p1:background="#ff000000" />
-        <TextView
-            p1:text="longitude"
-            p1:textAppearance="?android:attr/textAppearanceMedium"
-            p1:layout_width="122.0dp"
-            p1:layout_height="20.0dp"
-            p1:id="@+id/longitude"
-            p1:textSize="11dp"
-            p1:textColor="#ffffffff"
-            p1:textColorHighlight="#ff000000"
-            p1:background="#ff000000" />
-        <TextView
-            p1:text="distance"
-            p1:id="@+id/distance"
-            p1:layout_width="139.0dp"
-            p1:layout_height="20.0dp"
-            p1:textSize="11dp"
-            p1:textColorHighlight="#ff000000"
-            p1:textColor="#ffffffff"
-            p1:background="#ff000000" />
-    </LinearLayout>
+    <Button
+        p1:layout_width="30dp"
+        p1:layout_height="30dp"
+        p1:id="@+id/next"
+        p1:backgroundTint="@color/@android:color/black"
+        p1:layout_alignParentBottom="true"
+        p1:layout_marginBottom="15dp" />
     <LinearLayout
         p1:orientation="horizontal"
         p1:layout_width="fill_parent"
@@ -49,7 +23,14 @@
         p1:id="@+id/navbar"
         p1:minWidth="25px"
         p1:minHeight="25px"
-        p1:layout_marginTop="11.0dp">
+        p1:layout_alignParentLeft="false"
+        p1:layout_alignParentTop="true"
+        p1:layout_alignParentRight="false"
+        p1:layout_alignParentBottom="false"
+        p1:layout_centerHorizontal="true"
+        p1:layout_centerInParent="true"
+        p1:layout_centerVertical="false"
+        p1:layout_alignWithParentIfMissing="false">
         <Button xmlns:app="http://schemas.android.com/apk/res-auto"
             p1:text="Home"
             p1:layout_width="72.0dp"
@@ -61,8 +42,7 @@
             p1:textAllCaps="false"
             p1:includeFontPadding="false"
             p1:elegantTextHeight="false"
-            p1:layout_marginTop="0.0dp"
-            p1:layout_marginLeft="59.5dp" />
+            p1:layout_marginLeft="40dp" />
         <Button xmlns:app="http://schemas.android.com/apk/res-auto"
             p1:text="h"
             p1:layout_width="50dp"
@@ -75,7 +55,7 @@
             p1:includeFontPadding="false"
             p1:elegantTextHeight="false"
             p1:layout_marginTop="6.0dp"
-            p1:layout_marginLeft="105.5dp"
+            p1:layout_marginLeft="129.5dp"
             p1:textStyle="bold"
             p1:typeface="serif" />
         <Button xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -114,8 +94,8 @@
             p1:layout_centerHorizontal="true"
             p1:layout_marginLeft="0.0dp" />
         <Button xmlns:app="http://schemas.android.com/apk/res-auto"
-            p1:text="Location found!"
-            p1:layout_width="184.0dp"
+            p1:text="Plant found!"
+            p1:layout_width="142.0dp"
             p1:layout_height="50.0dp"
             p1:id="@+id/found"
             p1:textSize="15dp"
@@ -124,13 +104,45 @@
             p1:backgroundTint="#ffffbb00"
             p1:textColor="#ffffffff" />
     </LinearLayout>
-    <Button xmlns:app="http://schemas.android.com/apk/res-auto"
-        p1:text="next (debugging)"
-        p1:layout_width="101.5dp"
-        p1:layout_height="33.0dp"
-        p1:id="@+id/next"
-        p1:textSize="9dp"
-        p1:textColor="#ffffffff"
-        p1:layout_marginTop="500dp"
-        p1:textAllCaps="false" />
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:layout_width="fill_parent"
+        p1:layout_height="17.0dp"
+        p1:layout_alignParentLeft="false"
+        p1:layout_alignParentTop="false"
+        p1:layout_alignParentRight="false"
+        p1:layout_alignParentBottom="true"
+        p1:layout_centerInParent="false"
+        p1:layout_centerHorizontal="false"
+        p1:layout_centerVertical="false"
+        p1:layout_alignWithParentIfMissing="false">
+        <TextView
+            p1:text="latitude"
+            p1:textAppearance="?android:attr/textAppearanceMedium"
+            p1:layout_height="20.0dp"
+            p1:layout_width="130.0dp"
+            p1:id="@+id/latitude"
+            p1:textSize="11dp"
+            p1:textColor="#ffffffff"
+            p1:background="#ff000000" />
+        <TextView
+            p1:text="longitude"
+            p1:textAppearance="?android:attr/textAppearanceMedium"
+            p1:layout_width="122.0dp"
+            p1:layout_height="20.0dp"
+            p1:id="@+id/longitude"
+            p1:textSize="11dp"
+            p1:textColor="#ffffffff"
+            p1:textColorHighlight="#ff000000"
+            p1:background="#ff000000" />
+        <TextView
+            p1:text="distance"
+            p1:id="@+id/distance"
+            p1:layout_width="139.0dp"
+            p1:layout_height="20.0dp"
+            p1:textSize="11dp"
+            p1:textColorHighlight="#ff000000"
+            p1:textColor="#ffffffff"
+            p1:background="#ff000000" />
+    </LinearLayout>
 </RelativeLayout>
