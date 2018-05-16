@@ -27,6 +27,8 @@ namespace Exploretum
             SetContentView(Resource.Layout.Story);
             int questNumber = Intent.GetIntExtra("questNumber", 0);
             int stopNumber = Intent.GetIntExtra("stopNumber", 0);
+	     // Save current stop number for this quest
+            SavedState.setStateOf(questNumber, stopNumber);
 
             // turn json file into string
             string json;
