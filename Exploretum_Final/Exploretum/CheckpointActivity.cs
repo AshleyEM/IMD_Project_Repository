@@ -73,7 +73,8 @@ namespace Exploretum  // ALL QUEST SCREENS
             SetContentView(Resource.Layout.Checkpoint);
             questNumber = Intent.GetIntExtra("questNumber", 0);
             stopNumber = Intent.GetIntExtra("stopNumber", 0);
-
+            // Save current stop number for this quest
+            SavedState.setStateOf(questNumber, stopNumber);
             RequestPermissions(PermissionsLocation, RequestLocationId);
 
             // read from JSON data file
