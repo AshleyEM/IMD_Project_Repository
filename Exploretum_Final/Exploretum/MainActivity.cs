@@ -11,15 +11,18 @@ using Newtonsoft.Json.Linq;
 using System.IO;
 using System.Linq;
 using System;
+using Android.Views;
 
 namespace Exploretum // FIRST SCREEN USER SEES
 {
-    [Activity(Label = "Tasks", MainLauncher = true, Icon = "@mipmap/icon")]
+    [Activity(Label = "Exploretum", MainLauncher = true, Icon = "@mipmap/icon")]
     public class MainActivity : Activity
     {
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
+			Console.WriteLine(">>>>>>>>> MAIN ACTIVITY");
+            RequestWindowFeature(WindowFeatures.NoTitle);  
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.Main);
             
@@ -31,10 +34,14 @@ namespace Exploretum // FIRST SCREEN USER SEES
             JObject obj = JObject.Parse(json);
             string first_s_type = (string)obj.SelectToken("Game.Quests[0].stops[0].stoptype");
 
-	    Button startMoth = FindViewById<Button>(Resource.Id.Moth);
-	    Button startPine = FindViewById<Button>(Resource.Id.Pine);
-            Button startHummingbird = FindViewById<Button>(Resource.Id.Hummingbird);
-
+	        ImageButton startMoth = FindViewById<ImageButton>(Resource.Id.Moth);
+	        ImageButton startPine = FindViewById<ImageButton>(Resource.Id.Pine);
+            ImageButton startHummingbird = FindViewById<ImageButton>(Resource.Id.Hummingbird);
+			ImageButton about = FindViewById<ImageButton>(Resource.Id.logo); 
+            about.Click += delegate {
+                var intent = new Intent(this, typeof(AboutActivity));
+			    StartActivity(intent);
+			};
             startMoth.Click += delegate
             { 
                 if (first_s_type == "story"){
