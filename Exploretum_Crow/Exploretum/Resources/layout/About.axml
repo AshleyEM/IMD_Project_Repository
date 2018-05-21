@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main"
+    android:gravity="top">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="66.0dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="false"
+        android:layout_centerInParent="false"
+        android:layout_centerHorizontal="false"
+        android:layout_centerVertical="false"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false"
+        android:gravity="left">
+        <Button
+            android:text="Back"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:id="@+id/back"
+            android:backgroundTint="#ff000000"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:layout_marginLeft="0.0dp"
+            android:gravity="center"
+            android:textColor="#ffffffff" />
+        <Button
+            android:text="Clear Progress"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/clear"
+            android:backgroundTint="#ff000000"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:layout_marginLeft="0.0dp"
+            android:textColor="#ffffffff" />
+    </LinearLayout>
+    <TextView
+        android:text="Description of app"
+        android:layout_width="match_parent"
+        android:layout_height="456.5dp"
+        android:id="@+id/textView1"
+        android:layout_gravity="center"
+        android:layout_marginTop="130.5dp"
+        android:background="#c9000000"
+        android:textSize="20dp"
+        android:layout_marginLeft="0.0dp"
+        android:textColor="#ffffffff" />
+</RelativeLayout>

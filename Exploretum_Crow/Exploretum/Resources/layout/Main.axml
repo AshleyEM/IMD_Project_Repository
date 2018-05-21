@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="vertical"
+    p1:layout_width="fill_parent"
+    p1:layout_height="fill_parent"
+    p1:background="@drawable/main"
+    p1:minWidth="25px"
+    p1:minHeight="25px">
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:layout_width="fill_parent"
+        p1:layout_height="50.5dp"
+        p1:id="@+id/navbar"
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:layout_alignParentLeft="false"
+        p1:layout_alignParentTop="true"
+        p1:layout_alignParentRight="false"
+        p1:layout_alignParentBottom="false"
+        p1:layout_centerHorizontal="true"
+        p1:layout_centerInParent="true"
+        p1:layout_centerVertical="false"
+        p1:layout_alignWithParentIfMissing="false"
+        p1:background="#bd000000"
+        p1:layout_alignParentStart="false"
+        p1:layout_alignParentEnd="false">
+        <ImageButton xmlns:app="http://schemas.android.com/apk/res-auto"
+            p1:layout_width="82.5dp"
+            p1:layout_height="56.0dp"
+            p1:id="@+id/logo"
+            p1:scaleType="centerInside"
+            p1:backgroundTint="@android:color/transparent"
+            p1:src="@drawable/logo"
+            p1:layout_marginLeft="156.5dp" />
+    </LinearLayout>
+    <ImageButton xmlns:app="http://schemas.android.com/apk/res-auto"
+        p1:layout_width="400dp"
+        p1:layout_height="80dp"
+        p1:id="@+id/start"
+        p1:src="@drawable/button_crow"
+        p1:backgroundTint="@android:color/transparent"
+        p1:layout_gravity="center"
+        p1:scaleType="centerInside"
+        p1:layout_marginTop="190.0dp"
+        p1:layout_marginBottom="20dp" />
+</LinearLayout>
